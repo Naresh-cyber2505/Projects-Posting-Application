@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+    <color name="grayLight">#FFECEFF1</color>
+    <color name="grayLight1">#FFCFD8DC</color>
+    <color name="gray">#FF00897B</color>
+
+    <color name="colorPrimary">#292929</color>
+    <color name="colorPrimaryDark">#292929</color>
+    <color name="colorAccount">#FDBE3B</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorSearchIcon">#DBDBDB</color>
+    <color name="colorTxtHint">#7B7B7B</color>
+    <color name="colorQuickActionsBackground">#2F2D2E</color>
+    <color name="colorIcon">#A4A4A4</color>
+    <color name="colorTextSubTitle">#CECECE</color>
+    <color name="colorDefaultNoteColor">#333333</color>
+    <color name="colorNoteSubtitleText">#FAFAFA</color>
+    <color name="colorMissBackground">#1F1F1F</color>
+    <color name="colorNoteColor2">#FDBE3B</color>
+    <color name="colorNoteColor3">#FF4842</color>
+    <color name="colorNoteColor4">#3A52FC</color>
+    <color name="colorNoteColor5">#000000</color>
+    <color name="colorDelete">#FF4842</color>
+
+
+    <color name="lightWhite">#f5f5f5</color>
+    <!--    <color name="black">#000</color>-->
+    <color name="banner_background">#F1E9CE</color>
+    <color name="banner_background_light">#56F1E9CE</color>
+    <color name="home_background">#f2f5f8</color>
+</resources>

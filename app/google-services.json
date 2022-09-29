@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "456230790543",
+    "project_id": "mygramapp-40074",
+    "storage_bucket": "mygramapp-40074.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456230790543:android:a44db81cea9bd29d1557fa",
+        "android_client_info": {
+          "package_name": "com.example.mygramapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456230790543-tfdr62pej2vobouplmbcds9h9u38bj03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2EmlR4FHuXHLo7GCSASaqpVcUYz-jYI8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456230790543-tfdr62pej2vobouplmbcds9h9u38bj03.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

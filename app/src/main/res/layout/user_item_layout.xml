@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    >
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true">-->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_profile_image_post"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:padding="5dp"
+            android:src="@drawable/profile"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/user_name_post"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user_profile_image_post"
+            android:gravity="center"
+            android:text="user name"
+            android:textSize="12dp"
+            app:layout_constraintBottom_toBottomOf="@+id/user_profile_image_post"
+            app:layout_constraintStart_toEndOf="@+id/user_profile_image_post"
+            app:layout_constraintTop_toTopOf="@+id/user_profile_image_post"
+            app:layout_constraintVertical_bias="0.41000003" />
+
+        <TextView
+            android:id="@+id/user_full_name_search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user_name_post"
+            android:gravity="center"
+            android:text="user full name"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/user_name_post"
+            app:layout_constraintTop_toBottomOf="@+id/user_name_post" />
+
+        <Button
+            android:id="@+id/follow_btn_search"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/user_full_name_search"
+            android:layout_centerHorizontal="true"
+            android:text="follow"
+            android:textAllCaps="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+<!--    </RelativeLayout>-->
+
+</androidx.cardview.widget.CardView>
